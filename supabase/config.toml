@@ -1,0 +1,6 @@
+# Supabase CLI config — `supabase functions deploy gemini-chat` ke liye.
+project_id = "soulmate"
+
+# Gemini API key server-side secret hai (app me kabhi nahi jaati).
+[functions.gemini-chat]
+verify_jwt = true
